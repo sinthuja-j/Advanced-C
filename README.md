@@ -6,7 +6,6 @@
    
 Description:
 This program calculates the sums of natural numbers from 1 to N and from 1 to M using two separate processes. It then forks additional child processes to compute the sums concurrently using external programs.
-
 🔑 Key Features:
 
 Process Management: Utilizes the fork() system call to create child processes.
@@ -15,10 +14,9 @@ External Program Execution: Child processes execute external programs using exec
 Input Validation: Ensures proper input arguments, preventing errors and unexpected behavior.
 
 2. Bi-directional Communication between Parent and Child Processes using Pipe 📬
-3. 
+   
 Description:
 This project demonstrates bi-directional communication using pipes, where the parent and child processes communicate to calculate the sum of natural numbers. The task is split among child processes, each responsible for calculating a partial sum.
-
 🔑 Key Features:
 
 Forking Processes: Forks multiple child processes for parallel computation.
@@ -30,7 +28,6 @@ Dynamic Task Distribution: Tasks are split based on user input.
    
 Description:
 The program implements the Shortest Job First (SJF) CPU scheduling algorithm, which selects the process with the shortest burst time for execution. It reads input from a file containing multiple test cases and simulates the scheduling of processes.
-
 🔑 Key Features:
 
 SJF Scheduling: Selects the process with the shortest burst time.
@@ -42,7 +39,6 @@ Queue Data Structures: Uses queues to manage processes in the scheduling algorit
    
 Description:
 This project demonstrates multithreading in C using POSIX threads (pthreads). Threads access and update shared data in a global array, performing various tasks like summation, checking for even/odd numbers, multiplication, and reversing numbers.
-
 🔑 Key Features:
 
 Multithreading: Enhances performance by running tasks concurrently.
@@ -54,7 +50,6 @@ Thread Synchronization: Ensures correct execution order using pthread_join.
    
 Description:
 This program simulates bank transactions (deposits and withdrawals) using threads and mutexes for mutual exclusion. It ensures that only one thread can modify a bank account at a time, preventing data corruption during concurrent transactions.
-
 🔑 Key Features:
 
 Account Balances & Transactions: Handles multiple bank accounts and transactions.
